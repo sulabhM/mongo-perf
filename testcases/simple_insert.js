@@ -265,7 +265,7 @@ tests.push( { name: "Insert.LargeDocVector",
  * Test: Insert documents into collection using sequential int for the indexed
  *            field.
  * Notes: Let mongod create missing _id field
- * 
+ *
  */
 tests.push( { name: "Insert.UniqueIndex",
               tags: ['insert','uniqueidx', 'regression'],
@@ -288,7 +288,7 @@ tests.push( { name: "Insert.UniqueIndex",
  * Test: Insert documents into collection using sequential int for the indexed
  *            fields.
  * Notes: Let mongod create missing _id field
- * 
+ *
  */
 tests.push( { name: "Insert.UniqueIndexCompound",
               tags: ['insert','uniqueidx'],
@@ -314,7 +314,7 @@ tests.push( { name: "Insert.UniqueIndexCompound",
  * Test: Insert documents into collection using sequential int for the indexed
  *            fields.
  * Notes: Let mongod create missing _id field
- * 
+ *
  */
 tests.push( { name: "Insert.UniqueIndexCompoundReverse",
               tags: ['insert','uniqueidx'],

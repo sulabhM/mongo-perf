@@ -411,7 +411,7 @@ tests.push( { name: "Update.MatchedElementWithinArray",
 /**
  * Setup: Populate a collection with an integer field X set to 0 and an
  *        incrementing integer field A. Create a unique index on A.
- * Test:  Each thread works in a range of 100 documents; randomly selects a 
+ * Test:  Each thread works in a range of 100 documents; randomly selects a
  *        document using field A and increments X.
  */
 tests.push( { name: "Update.UniqueIndex",
@@ -436,7 +436,7 @@ tests.push( { name: "Update.UniqueIndex",
  * Setup: Populate a collection with an integer field X set to 0 and two
  *        incrementing integer fields A, B. Create a unique compound index on
  *        fields A and B, with reverse ordering for A than B.
- * Test:  Each thread works in a range of 100 documents; randomly selects a 
+ * Test:  Each thread works in a range of 100 documents; randomly selects a
  *        document using field A and increments X.
  */
 tests.push( { name: "Update.UniqueIndexCompoundReverse",
