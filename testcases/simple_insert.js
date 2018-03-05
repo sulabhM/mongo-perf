@@ -291,7 +291,7 @@ tests.push( { name: "Insert.UniqueIndex",
  *
  */
 tests.push( { name: "Insert.UniqueIndexCompound",
-              tags: ['insert','uniqueidx'],
+              tags: ['insert','uniqueidx','regression'],
               pre: function( collection ) {
 	          var testDB = collection.getDB();
                   var collName = collection.getName();
@@ -317,7 +317,7 @@ tests.push( { name: "Insert.UniqueIndexCompound",
  *
  */
 tests.push( { name: "Insert.UniqueIndexCompoundReverse",
-              tags: ['insert','uniqueidx'],
+              tags: ['insert','uniqueidx','regression'],
               pre: function( collection ) {
 	          var testDB = collection.getDB();
                   var collName = collection.getName();

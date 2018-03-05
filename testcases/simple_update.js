@@ -440,7 +440,7 @@ tests.push( { name: "Update.UniqueIndex",
  *        document using field A and increments X.
  */
 tests.push( { name: "Update.UniqueIndexCompoundReverse",
-              tags: ['update','uniqueidx'],
+              tags: ['update','uniqueidx','regression'],
               pre: function( collection ) {
                   collection.drop();
                   var docs = [];
